@@ -1,0 +1,184 @@
+```
+# UPAM NEXUS PROJECT
+**License Adaptation for NOVATOR/UPAM Software Stack**
+
+## 🎯 **PROJECT OVERVIEW**
+UPAM NEXUS is a modular software stack for modern development, including:
+- UPAM.Aurora-DPA (inference gateway)
+- UPAM.NG.Writer (text producer)
+- UPAM.NG.Artisan (code producer)
+- UPAM.NG.CodeParser (static analyzer)
+- NOVATOR.Monolith (QA judge)
+- UPAM.Kernel (orchestrator)
+
+## 📋 **RECOMMENDED LICENSE COMBINATION**
+For most UPAM NEXUS deployments, use:
+
+```
+Core License + Schedule A (SDK) + Corporate Terms
+SPDX Identifier: LicenseRef-NOVATOR-UNSL-1.0.0-A-CORPORATE
+```
+
+### **Alternative Combinations:**
+| Use Case | Schedule | Terms | SPDX Identifier |
+|----------|----------|-------|-----------------|
+| **Individual Developer** | A (SDK) | Individual | `LicenseRef-NOVATOR-UNSL-1.0.0-A-INDIVIDUAL` |
+| **Enterprise Deployment** | D (On-premise) | Enterprise | `LicenseRef-NOVATOR-UNSL-1.0.0-D-ENTERPRISE` |
+| **SaaS Offering** | C (SaaS) | Corporate | `LicenseRef-NOVATOR-UNSL-1.0.0-C-CORPORATE` |
+| **API Service** | B (API) | Corporate | `LicenseRef-NOVATOR-UNSL-1.0.0-B-CORPORATE` |
+
+## 🔧 **PROJECT-SPECIFIC TERMS**
+
+### **1. Module Licensing**
+UPAM NEXUS is licensed as a complete stack. Individual modules cannot be:
+- Licensed separately
+- Extracted and used independently
+- Replaced with third-party alternatives
+
+### **2. Integration Rights**
+#### **Permitted:**
+- Integration into your development pipelines
+- Modification of configuration files
+- Creation of custom modules that extend functionality
+- Deployment across multiple environments (dev, staging, prod)
+
+#### **Restricted:**
+- Removal of NOVATOR copyright notices
+- Distribution of modified core modules
+- Use of modules outside the UPAM ecosystem
+
+### **3. Technical Support**
+#### **Included:**
+- Access to UPAM documentation
+- Community support forums
+- GitHub issue tracking
+
+#### **Enterprise Add-ons:**
+- Dedicated Slack channel
+- Priority bug fixes
+- Custom module development
+
+### **4. Compliance Requirements**
+#### **Mandatory:**
+- Display UPAM NEXUS banner in admin interfaces
+- Include license headers in all generated code
+- Maintain audit trail of usage
+
+#### **Reporting:**
+- Monthly usage statistics (auto-generated)
+- Annual compliance self-certification
+- Notification of deployment changes
+
+## 💰 **PRICING FOR UPAM NEXUS**
+
+### **Standard Pricing (Schedule A + Corporate):**
+- **Development Team:** $499/developer/year
+- **Production Environment:** $2,499/year per environment
+- **Support Package:** $999/year (optional)
+
+### **Enterprise Pricing (Custom):**
+- **Unlimited Developers:** Custom quote
+- **Multiple Environments:** Included
+- **Dedicated Support:** Included
+- **SLA:** 99.9% uptime guarantee
+
+## 🚀 **DEPLOYMENT MODELS**
+
+### **1. On-Premise (Schedule D)**
+- Full control over infrastructure
+- Air-gapped deployment available
+- Annual maintenance fee: 20% of license cost
+
+### **2. Cloud / SaaS (Schedule C)**
+- Managed by NOVATOR
+- Automatic updates
+- Included in subscription
+
+### **3. Hybrid**
+- Core on-premise, extensions cloud
+- Custom licensing required
+- Contact for pricing
+
+## 🔄 **VERSIONING AND UPDATES**
+
+### **Update Policy:**
+- **Security patches:** Immediate deployment required
+- **Minor versions:** Automatic updates included
+- **Major versions:** 6 months notice, upgrade assistance
+
+### **Compatibility:**
+- Backward compatibility within major versions
+- API stability guaranteed for 2 years
+- Deprecation warnings for 1 year
+
+## 📞 **PROJECT-SPECIFIC CONTACTS**
+
+### **Technical Support:**
+- **General:** support@novator.dev
+- **Urgent:** upam-support@novator.dev
+- **Emergency:** +995 555 123 457
+
+### **Account Management:**
+- **Sales:** upam-sales@novator.dev
+- **Billing:** billing@novator.dev
+- **Legal:** legal@novator.dev
+
+### **Community:**
+- **GitHub:** https://github.com/masterrip/UPAM-NEXUS
+- **Documentation:** https://upam.novator.dev/docs
+- **Forum:** https://community.novator.dev
+
+## ⚠️ **IMPORTANT NOTES**
+
+### **1. Audit Rights**
+NOVATOR may conduct annual compliance audits for:
+- User count verification
+- Deployment environment checks
+- License compliance validation
+
+### **2. Breach and Remediation**
+- 30-day cure period for violations
+- Temporary license suspension possible
+- Termination for repeated violations
+
+### **3. Data and Privacy**
+- Usage data collected for improvement
+- No personal data shared with third parties
+- GDPR/CCPA compliant
+
+## 📝 **LICENSE HEADER TEMPLATE**
+
+### **For UPAM Configuration Files:**
+```yaml
+# SPDX-License-Identifier: LicenseRef-NOVATOR-UNSL-1.0.0-A-CORPORATE
+# Copyright (c) 2025-2026 NOVATOR. All rights reserved.
+# UPAM NEXUS Configuration File
+# Project: [Your Project Name]
+# Environment: [Production/Development/Staging]
+```
+
+### **For Generated Code:**
+```javascript
+// SPDX-License-Identifier: LicenseRef-NOVATOR-UNSL-1.0.0-A-CORPORATE
+// Copyright (c) 2025-2026 NOVATOR. All rights reserved.
+// Generated by UPAM NEXUS on [Date]
+// DO NOT MODIFY - Auto-generated code
+```
+
+---
+
+## ✅ **COMPLIANCE CHECKLIST**
+
+- [ ] License headers in all configuration files
+- [ ] User count within licensed limits
+- [ ] Deployment environments registered
+- [ ] Compliance reports submitted quarterly
+- [ ] Support contact information current
+
+---
+
+**LAST UPDATED:** 2026-01-01  
+**PROJECT VERSION:** UPAM NEXUS 7.0  
+**LICENSE VERSION:** UNSL 1.0.0  
+**DOCUMENT ID:** UPAM-NEXUS-LICENSE-ADAPTATION-v1
+```
