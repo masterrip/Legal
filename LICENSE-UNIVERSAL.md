@@ -13,7 +13,7 @@ Non-exclusive, non-transferable right to use the software.
 - No modification without permission
 
 ## 4. CONTACT
-**Legal:** legal@novator.dev
+**Legal:** inovator49@gmail.com
 **Website:** https://github.com/masterrip/Legal
 
 ---
